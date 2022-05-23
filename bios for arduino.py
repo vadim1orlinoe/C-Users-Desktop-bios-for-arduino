@@ -1,7 +1,7 @@
 import time
+import py firmata
 
-
-
+board = pyfirmata.Arduino('/port')
 while True:
 	y = 'load os'
 	y2 = 'exit'
